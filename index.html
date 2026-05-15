@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SIRIRI - Turismo Rural y Sostenible en Argentina. Conectamos comunidades rurales con viajeros responsables.">
+    <meta name="keywords" content="turismo rural, sostenible, Argentina, experiencias auténticas">
+    <title>SIRIRI - Turismo Rural Sostenible</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23059669'>S</text></svg>">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold text-green-700">SIRIRI</span>
+                <span class="text-xs text-gray-600 hidden md:inline">Turismo Rural Sostenible</span>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-gray-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">¿Quiénes Somos?</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p class="text-gray-700 mb-4 leading-relaxed">
+                        SIRIRI es una organización dedicada a fortalecer y desarrollar el turismo rural y sostenible en Argentina y América Latina.
+                    </p>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        Apoyamos a emprendedores locales, promovemos la preservación cultural y ambiental, y fomentamos iniciativas de turismo responsable que benefician a las comunidades.
+                    </p>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-3 text-xl">✓</span>
+                            <span>Desarrollo rural sostenible</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-3 text-xl">✓</span>
+                            <span>Preservación cultural y ambiental</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-3 text-xl">✓</span>
+                            <span>Turismo responsable y auténtico</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-3 text-xl">✓</span>
+                            <span>Cursos y formación en turismo</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gradient-to-br from-green-100 to-green-50 h-64 md:h-80 rounded-lg flex items-center justify-center border-2 border-green-200">
+                    <div class="text-center">
+                        <p class="text-green-700 text-4xl font-bold mb-2">🌱</p>
+                        <p class="text-gray-600">Comunidades Rurales Sostenibles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Contact Section -->
+    <section id="contact" class="bg-gray-50 py-16 md:py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Conectemos</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                Síguenos en nuestras redes sociales y mantente actualizado con nuestros proyectos y iniciativas
+            </p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-12">
+                <!-- Instagram -->
+                <a href="https://instagram.com/siriritrs" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition text-center hover:bg-pink-50">
+                    <svg class="w-8 h-8 mx-auto mb-3 text-pink-500" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.057-1.645.069-4.849.069-3.204 0-3.584-.012-4.849-.069-3.259-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                    </svg>
+                    <p class="font-semibold text-gray-800">Instagram</p>
+                    <p class="text-xs text-gray-600 mt-1">@siriritrs</p>
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://facebook.com/siriritrs" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition text-center hover:bg-blue-50">
+                    <svg class="w-8 h-8 mx-auto mb-3 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                    <p class="font-semibold text-gray-800">Facebook</p>
+                    <p class="text-xs text-gray-600 mt-1">@siriritrs</p>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:hola@siriri.com.ar" class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition text-center hover:bg-red-50">
+                    <svg class="w-8 h-8 mx-auto mb-3 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    <p class="font-semibold text-gray-800">Email</p>
+                    <p class="text-xs text-gray-600 mt-1">hola@siriri.com.ar</p>
+                </a>
+
+                <!-- Website -->
+                <a href="https://siriri.com.ar/contacto" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition text-center hover:bg-green-50">
+                    <svg class="w-8 h-8 mx-auto mb-3 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    <p class="font-semibold text-gray-800">Contacto</p>
+                    <p class="text-xs text-gray-600 mt-1">Más información</p>
+                </a>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto mt-12 pt-12 border-t border-gray-200">
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-green-700">+100</p>
+                    <p class="text-gray-600 mt-2">Emprendimientos apoyados</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-green-700">+50</p>
+                    <p class="text-gray-600 mt-2">Comunidades en red</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-green-700">+1000</p>
+                    <p class="text-gray-600 mt-2">Personas alcanzadas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="font-bold text-white mb-4 text-lg">SIRIRI</h3>
+                    <p class="text-sm leading-relaxed">Turismo rural y sostenible en Argentina y América Latina. Conectando comunidades con viajeros responsables.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white mb-4">Enlaces Rápidos</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#about" class="hover:text-white transition">Sobre Nosotros</a></li>
+                        <li><a href="#contact" class="hover:text-white transition">Contacto</a></li>
+                        <li><a href="https://siriri.com.ar" target="_blank" class="hover:text-white transition">Sitio Principal</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white mb-4">Síguenos</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://instagram.com/siriritrs" target="_blank" rel="noopener noreferrer" class="text-pink-400 hover:text-white transition">Instagram</a>
+                        <a href="https://facebook.com/siriritrs" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-white transition">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center text-sm">
+                <p>&copy; 2026 SIRIRI - Todos los derechos reservados</p>
+                <p class="text-xs text-gray-500 mt-2">Turismo Rural y Sostenible en Argentina</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Mobile menu functionality (ready for expansion)
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        mobileMenuBtn.addEventListener('click', function() {
+            // Add mobile menu toggle logic here
+        });
+    </script>
+
+</body>
+</html>
